@@ -14,11 +14,17 @@ pip-selfcheck.json
 ### learger file ###
 # content01
 /deep-learning/content01/model/*.h5
-/deep-learning/content01/datasets/test/
-/deep-learning/content01/datasets/train/
-/deep-learning/content01/datasets/validation/
+/deep-learning/content01/datasets/test/*
+!/deep-learning/content01/datasets/test/.gitkeep
+/deep-learning/content01/datasets/train/*
+!/deep-learning/content01/datasets/train/.gitkeep
+/deep-learning/content01/datasets/validation/*
+!/deep-learning/content01/datasets/validation/.gitkeep
 
 # content02
-/deep-learning/content02/data/
-/deep-learning/content02/weights/
-/deep-learning/content02/vocab/
+/deep-learning/content02/data/*
+!/deep-learning/content02/data/.gitkeep
+/deep-learning/content02/weights/*
+!/deep-learning/content02/weights/.gitkeep
+/deep-learning/content02/vocab/*
+!/deep-learning/content02/vocab/.gitkeep
