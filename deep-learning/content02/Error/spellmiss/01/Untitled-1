@@ -1,0 +1,1 @@
+encderによって繰り返されるBertLayerの処理の中でBertSelfOutputのBertLayerNormに、"hidden_size"を"hidden"とした記述ミスがあったため、"config"がもつインスタンスに存在しないというAttributeが発生したと考えられる。

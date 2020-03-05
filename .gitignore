@@ -1,8 +1,5 @@
-# Created by https://www.gitignore.io/api/virtualenv
 
 ### VirtualEnv ###
-# Virtualenv
-# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 .Python
 [Bb]in
 [Ii]nclude
@@ -14,5 +11,14 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 
+### learger file ###
+# content01
+/deep-learning/content01/model/*.h5
+/deep-learning/content01/datasets/test/
+/deep-learning/content01/datasets/train/
+/deep-learning/content01/datasets/validation/
 
-# End of https://www.gitignore.io/api/virtualenv
+# content02
+/deep-learning/content02/data/
+/deep-learning/content02/weights/
+/deep-learning/content02/vocab/
